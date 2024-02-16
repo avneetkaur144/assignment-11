@@ -5,11 +5,10 @@
 }
 
 body {
-  background: #3d566a;
-  background: linear-gradient(to bottom, #c9d6ff, #e2e2e2); 
+  background: #1f1f1f; /* Dark gray background */
   font-size: larger;
   line-height: 1.6;
-  color: #f7f0f0;
+  color: #f7f0f0; /* White text color */
 }
 
 .lyrics {
@@ -18,19 +17,19 @@ body {
   font-style: oblique;
   font-size: larger;
   align-items: center;
-  color: rgb(147, 243, 153);
+  color: #66ff66; /* Light green text color */
   columns: 2;
 }
 
 .lyrics h3 {
   font-size: x-large;
-  color: rgb(251, 252, 251);
+  color: #fbfcfb; /* Light gray text color */
   letter-spacing: 0.1cm;
 }
 
 h2 {
   text-align: center;
-  color: rgb(208, 252, 32);
+  color: #d0fc20; /* Yellow text color */
 }
 
 header {
@@ -47,12 +46,12 @@ main {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #333; /* Dark gray background */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
   text-align: center;
   padding: 0.001cq;
-  background: #181818;
+  background: #181818; /* Dark gray background */
 }
