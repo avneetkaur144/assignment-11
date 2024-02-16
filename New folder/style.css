@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3d566a;
+  background: linear-gradient(to bottom, #c9d6ff, #e2e2e2); 
+  font-size: larger;
+  line-height: 1.6;
+  color: #f7f0f0;
+}
+
+.lyrics {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: oblique;
+  font-size: larger;
+  align-items: center;
+  color: rgb(147, 243, 153);
+  columns: 2;
+}
+
+.lyrics h3 {
+  font-size: x-large;
+  color: rgb(251, 252, 251);
+  letter-spacing: 0.1cm;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(208, 252, 32);
+}
+
+header {
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 0.001cq;
+  background: #181818;
+}
